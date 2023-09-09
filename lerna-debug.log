@@ -1,0 +1,16 @@
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   lernaVersion: '7.2.0',
+0 silly argv   '$0': 'lerna',
+0 silly argv   name: '@barrel-components'
+0 silly argv }
+1 notice cli v7.2.0
+2 verbose packageConfigs Resolving packages based on package.json "workspaces" configuration.
+3 verbose rootPath /Users/nayoung-kim/Documents/개인프로젝트/monorepo-template
+4 info versioning independent
+5 error Error: Invalid tag name "@barrel-components": Tags may not have any characters that encodeURIComponent encodes.
+5 error     at invalidTagName (/Users/nayoung-kim/.nvm/versions/node/v18.16.0/lib/node_modules/lerna/node_modules/npm-package-arg/npa.js:94:15)
+5 error     at fromRegistry (/Users/nayoung-kim/.nvm/versions/node/v18.16.0/lib/node_modules/lerna/node_modules/npm-package-arg/npa.js:299:13)
+5 error     at resolve (/Users/nayoung-kim/.nvm/versions/node/v18.16.0/lib/node_modules/lerna/node_modules/npm-package-arg/npa.js:84:12)
+5 error     at npa (/Users/nayoung-kim/.nvm/versions/node/v18.16.0/lib/node_modules/lerna/node_modules/npm-package-arg/npa.js:55:10)
+5 error     at CreateCommand.initialize (/Users/nayoung-kim/.nvm/versions/node/v18.16.0/lib/node_modules/lerna/node_modules/@lerna/create/dist/command.js:3956:69)

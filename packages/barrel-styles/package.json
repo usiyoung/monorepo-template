@@ -1,0 +1,29 @@
+{
+  "name": "barrel-styles",
+  "version": "1.0.0",
+  "description": "barreleye-common-styles",
+  "keywords": [
+    "common-styles"
+  ],
+  "author": "usiyoung <usiyoung7@gmail.com>",
+  "homepage": "https://github.com/barreleye-labs/barreleye-explorer",
+  "license": "ISC",
+  "main": "lib/barrel-styles.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usiyoung/monorepo-template.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/barrel-styles.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/usiyoung/monorepo-template/issues"
+  }
+}

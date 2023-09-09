@@ -1,0 +1,29 @@
+{
+  "name": "barrel-components",
+  "version": "1.0.0",
+  "description": "barreleye-common-components",
+  "keywords": [
+    "components"
+  ],
+  "author": "usiyoung <usiyoung7@gmail.com>",
+  "homepage": "https://github.com/barreleye-labs/barreleye-explorer",
+  "license": "ISC",
+  "main": "lib/barrel-components.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usiyoung/monorepo-template.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/barrel-components.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/usiyoung/monorepo-template/issues"
+  }
+}
