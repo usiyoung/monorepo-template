@@ -1,10 +1,15 @@
 {
-  "name": "root",
+  "name": "barrel-monorepo-template",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
+  "workspaces": ["packages/*"],
   "dependencies": {},
+  "scripts": {
+    "lint": "eslint ./packages --ext .ts,.tsx,.js,.jsx --cache",
+    "barrel-components": "yarn workspace @barrel/components",
+    "barrel-styles": "yarn workspace @barrel/styles",
+    "barrel-types": "yarn workspace @barrel/types",
+    "barrel-utils": "yarn workspace @barrel/utils"
+  },
   "devDependencies": {
     "eslint": "^8.49.0",
     "lerna": "^7.2.0"

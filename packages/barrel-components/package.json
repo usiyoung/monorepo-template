@@ -21,9 +21,28 @@
     "url": "git+https://github.com/usiyoung/monorepo-template.git"
   },
   "scripts": {
-    "test": "node ./__tests__/barrel-components.test.js"
+    "storybook": "storybook dev -p 6006"
   },
   "bugs": {
     "url": "https://github.com/usiyoung/monorepo-template/issues"
+  },
+  "dependencies": {
+    "storybook": "^7.4.0",
+    "ant-design-vue": "4.x",
+    "@storybook/addon-a11y": "^7.4.0",
+    "@storybook/addon-essentials": "^7.4.0",
+    "@storybook/addon-interactions": "^7.4.0",
+    "@storybook/addon-links": "^7.4.0",
+    "@storybook/addon-mdx-gfm": "^7.4.0",
+    "@storybook/blocks": "^7.4.0",
+    "@storybook/manager-api": "^7.4.0",
+    "@storybook/testing-library": "^0.2.0",
+    "@storybook/theming": "^7.4.0",
+    "@storybook/vue3": "^7.4.0",
+    "@storybook/vue3-vite": "^7.4.0",
+    "eslint-plugin-storybook": "^0.6.13"
+  },
+  "devDependencies": {
+
   }
 }
